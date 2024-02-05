@@ -26,3 +26,4 @@ python3 manage.py makemigrations
 
 # Migra o banco de dados
 python3 manage.py migrate
+```
