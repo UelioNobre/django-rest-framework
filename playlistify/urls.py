@@ -27,5 +27,5 @@ router.register(r"singers", SingerViewSet)
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", include(routers.urls)),
+    path("", include(router.urls)),
 ]
