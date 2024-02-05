@@ -34,3 +34,9 @@ class PlaylistSerializer(serializers.HyperlinkedModelSerializer):
             "updated_at",
             "musics",
         ]
+
+
+class SingerSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Singer
+        fields = ["id", "name"]
