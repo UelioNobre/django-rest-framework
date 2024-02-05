@@ -16,3 +16,13 @@ python3 manage.py migrate
 # Cria o usuario administrador
 python3 manage.py createsuperuser
 ```
+
+## Models Django
+Ao criar algum model para a aplicação, deve-se atualizar as migrations com os seguintes comandos:
+
+```bash
+# Atualiza as migrações de acordo com as alterações dos models
+python3 manage.py makemigrations
+
+# Migra o banco de dados
+python3 manage.py migrate
